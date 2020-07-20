@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "data_parsing.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "osmosis": "^1.1.10"
+    "htmlparser2": "^4.1.0",
+    "needle": "^2.5.0",
+    "osmosis": "^1.1.10",
+    "puppeteer": "^5.1.0"
   }
 }
